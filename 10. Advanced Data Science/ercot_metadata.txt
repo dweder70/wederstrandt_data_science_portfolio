@@ -1,0 +1,16 @@
+This document covers the ercot_total_load_2020-2026.csv columns metadata. 
+use this to create a table
+
+Column       Datatype   Description
+DayEnding     Date       24 hour date of usage
+COAST         float      Region of Power Consumtion
+EAST          float      Region of Power Consumtion
+FWEST         float      Region of Power Consumtion (Far West)
+NORTH         float      Region of Power Consumtion
+SOUTH         float      Region of Power Consumtion
+SCENT         float      Region of Power Consumtion (South Central)
+WEST          float      Region of Power Consumtion
+ERCOT         float      Total Power Consumtion
+
+minus ercot, see if we can create a visual of the state of texas divided by the about ercot regions
+
