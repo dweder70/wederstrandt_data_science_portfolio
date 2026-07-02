@@ -1,4 +1,4 @@
-# Intro_to_data_science
+# Energy Drink Market Analysis
 
 ![Level](https://img.shields.io/badge/Course-Foundations-5C4D7D)
 ![Artifacts](https://img.shields.io/badge/Artifacts-Paper%20%7C%20Slides-7A9E9F)

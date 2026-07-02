@@ -1,6 +1,6 @@
 # Heart Disease Analysis
 
-[Track](https://img.shields.io/badge/Track-Exploratory%20Data%20Analysis-2A9D8F)
+![Track](https://img.shields.io/badge/Track-Exploratory%20Data%20Analysis-2A9D8F)
 ![Notebook](https://img.shields.io/badge/Primary%20Artifact-Jupyter%20Notebook-F37726?logo=jupyter&logoColor=white)
 
 ## Scope

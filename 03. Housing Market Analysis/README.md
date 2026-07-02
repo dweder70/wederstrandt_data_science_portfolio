@@ -1,4 +1,4 @@
-# Housing Market Anlysis
+# Housing Market Analysis
 
 ![Track](https://img.shields.io/badge/Track-Statistical%20Modeling-1F6E8C)
 ![Stack](https://img.shields.io/badge/Stack-R%20%7C%20RMarkdown-276DC3?logo=r&logoColor=white)

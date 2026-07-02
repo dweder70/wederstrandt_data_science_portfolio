@@ -1,55 +1,37 @@
-# Data_Visualization
+# The Real Cost of Childcare
 
-![Track](https://img.shields.io/badge/Track-Data%20Visualization-0F4C5C)
-![Format](https://img.shields.io/badge/Formats-Rmd%20%7C%20PDF%20%7C%20PNG-2C7DA0)
-![Focus](https://img.shields.io/badge/Focus-Storytelling-468FAF)
+## Overview
 
-## Scope
-This directory includes visualization artifacts for coursework and milestone presentations, with outputs spanning R Markdown, PDF, and image formats.
-
-## At A Glance
-| Category | Details |
-|---|---|
-| Authoring source | `dsc640_wederstrandt_milestone4_blog_mockup.Rmd` |
-| Rendered artifacts | PDF reports and presentation deliverables |
-| Visual asset | `infographic.png` |
-| Primary goal | Communicate insight with clarity and narrative flow |
+This project analyzes childcare costs and affordability using report-first data storytelling.
 
 ## Objective
-Communicate analytical findings through clear visual narratives that balance statistical accuracy with audience accessibility.
 
-## Contents
-- `dsc640_wederstrandt_milestone4_blog_mockup.Rmd`: Source document for milestone visualization/report content.
-- `dsc640_wederstrandt_milestone4_blog_mockup.pdf`: Rendered report from the R Markdown source.
-- `dsc640_wederstrandt_milestone4_presentation.pdf`: Presentation-focused visualization output.
-- `dsc670_wederstrandt_milestone_4.pdf`: Additional milestone visualization artifact.
-- `Wederstrandt-dsc640project final paper.pdf`: Final written project deliverable.
-- `infographic.png`: Visual summary asset.
+Translate data on childcare expenses into clear, policy-relevant insights for non-technical audiences.
 
-## Technical Focus
-- Storytelling through static visualization deliverables.
-- Reproducible report generation with R Markdown.
-- Communication design for project summaries and presentations.
+## Files
 
-## Tooling
-- R / R Markdown
-- PDF and image-based reporting formats
+- the_real_cost_of_childcare.Rmd: Source analysis and narrative in R Markdown.
+- the_real_cost_of_childcare_all.pdf: Rendered report output.
+- README.md: Project summary and reproducibility guidance.
 
-## Visualization Principles Applied
-- Match chart type to analytical intent (comparison, distribution, trend, composition).
-- Prioritize legibility: labeling, scaling, and color contrast.
-- Keep narrative flow coherent from context to key takeaway.
-- Use annotations to make insights explicit without overloading visuals.
+## Methods
 
-## Reproducibility Notes
-1. Use the `.Rmd` file as the source of truth for generated report content.
-2. Install required R packages before rendering.
-3. Knit the report to regenerate PDF outputs when the source changes.
+- Data cleaning and exploratory profiling in R.
+- Visual storytelling to communicate affordability patterns.
+- Report writing focused on interpretation and implications.
 
-## Output Types
-- Source artifact (`.Rmd`) for version-controlled analytical writing.
-- Rendered reports/papers (`.pdf`) for submission and review.
-- Standalone visual asset (`.png`) for slide or document reuse.
+## Tools
 
-## Portfolio Highlight
-This folder demonstrates the translation of analytical content into publication-ready visual deliverables, with an emphasis on readability and narrative coherence.
+- R
+- R Markdown
+- ggplot2 and related reporting packages
+
+## How To Reproduce
+
+1. Open the R Markdown file in RStudio or another R-capable environment.
+2. Install required R packages.
+3. Knit the document to regenerate the PDF report.
+
+## Outcome
+
+The project demonstrates a complete analysis-to-communication workflow centered on socioeconomic insight rather than model complexity.
