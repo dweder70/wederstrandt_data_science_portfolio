@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Science Portfolio</title>
+    <style>
+      :root {
+        --bg: #07111f;
+        --bg-soft: #0f1c2e;
+        --surface: rgba(255, 255, 255, 0.06);
+        --surface-strong: rgba(255, 255, 255, 0.1);
+        --text: #f4f7fb;
+        --muted: #9eb0c6;
+        --accent: #4cc9f0;
+        --accent-2: #7b61ff;
+        --border: rgba(255, 255, 255, 0.12);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+        line-height: 1.65;
+        color: var(--text);
+        background: radial-gradient(circle at top left, #14304f, var(--bg) 60%);
+      }
+      a { color: inherit; text-decoration: none; }
+      .container {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+      .hero {
+        background: linear-gradient(145deg, rgba(76, 201, 240, 0.14), transparent 48%);
+        border: 1px solid var(--border);
+        border-radius: 1.4rem;
+        padding: 2rem;
+        margin-bottom: 1.4rem;
+        backdrop-filter: blur(14px);
+      }
+      .hero h1 { margin: 0 0 0.7rem; font-size: clamp(2rem, 3.3vw, 2.8rem); }
+      .hero p { margin: 0; color: var(--muted); max-width: 780px; }
+      .badges { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
+      .badge {
+        display: inline-block;
+        padding: 0.45rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        color: var(--text);
+      }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 1rem;
+        padding: 1.1rem 1.2rem;
+        backdrop-filter: blur(12px);
+      }
+      h2, h3 { margin-top: 0; }
+      ul { padding-left: 1.1rem; color: var(--muted); }
+      table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+      th, td { text-align: left; padding: 0.75rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+      th { color: var(--accent); }
+      .project-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+      .project-item {
+        background: var(--surface-strong);
+        border: 1px solid var(--border);
+        border-radius: 0.95rem;
+        padding: 1rem;
+      }
+      .project-item a { color: var(--accent); font-weight: 600; }
+      .muted { color: var(--muted); }
+      .cta { margin-top: 1.2rem; display: inline-block; padding: 0.8rem 1rem; border-radius: 999px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #04101c; font-weight: 700; }
+      @media (max-width: 780px) {
+        .grid, .project-list { grid-template-columns: 1fr; }
+        .hero { padding: 1.3rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="hero">
+        <h1>Data Science Portfolio</h1>
+        <p>
+          This repository showcases a technical portfolio of coursework and project deliverables spanning data preparation,
+          exploratory analysis, statistical modeling, predictive analytics, data mining, visualization, and generative AI communication.
+        </p>
+        <div class="badges">
+          <span class="badge">Python</span>
+          <span class="badge">R / R Markdown</span>
+          <span class="badge">Jupyter</span>
+          <span class="badge">Analytics</span>
+          <span class="badge">Forecasting</span>
+        </div>
+      </section>
+
+      <section class="card" style="margin-bottom: 1rem;">
+        <h2>30-Second Recruiter Summary</h2>
+        <ul>
+          <li><strong>Target roles:</strong> Data Analyst, Junior Data Scientist</li>
+          <li><strong>Core stack:</strong> Python, scikit-learn, Jupyter, R, R Markdown, Markdown</li>
+          <li><strong>Proof points:</strong> multi-source data preparation, imbalanced fraud modeling, API-driven workflows, and stakeholder-facing communication artifacts</li>
+          <li><strong>Best starting point:</strong> review the flagship projects below and then explore the folder-level project notes</li>
+        </ul>
+      </section>
+
+      <section class="card" style="margin-bottom: 1rem;">
+        <h2>Flagship Projects</h2>
+        <div class="project-list">
+          <div class="project-item">
+            <h3>Weather Forecasting</h3>
+            <p class="muted">API integration and CLI workflow design with live forecast retrieval and state normalization.</p>
+            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/02.%20Weather%20Forecasting">Open project →</a>
+          </div>
+          <div class="project-item">
+            <h3>Data Preparation</h3>
+            <p class="muted">Multi-source ETL and schema alignment across API, flat-file, and HTML extraction workflows.</p>
+            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/05.%20Service%20Members%20PTSD">Open project →</a>
+          </div>
+          <div class="project-item">
+            <h3>Fraud Detection</h3>
+            <p class="muted">Imbalanced classification analysis built around fraud-risk modeling and metric-aware evaluation.</p>
+            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/06.%20Credit%20Card%20Fraud%20Detection%20Analysis">Open project →</a>
+          </div>
+          <div class="project-item">
+            <h3>ERCOT Hourly Power Load</h3>
+            <p class="muted">Time-series forecasting for ERCOT power demand with metadata validation and benchmark modeling.</p>
+            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/09.%20Email%20Triage%20Using%20Generative_AI">Open project →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid" style="margin-bottom: 1rem;">
+        <div class="card">
+          <h3>Quick Portfolio Snapshot</h3>
+          <table>
+            <tr><th>Dimension</th><th>Coverage</th></tr>
+            <tr><td>Primary domains</td><td>Data preparation, EDA, statistics, predictive analytics, data mining, visualization, GenAI communication</td></tr>
+            <tr><td>Core tooling</td><td>Python, Jupyter, R, R Markdown, Markdown</td></tr>
+            <tr><td>Artifact formats</td><td>.ipynb, .Rmd, .pdf, .docx, .pptx, .png, .csv</td></tr>
+            <tr><td>Portfolio style</td><td>End-to-end workflow plus stakeholder-ready communication</td></tr>
+          </table>
+        </div>
+        <div class="card">
+          <h3>Portfolio Objectives</h3>
+          <ul>
+            <li>Demonstrate end-to-end analytical workflows from raw data acquisition to communication-ready outputs</li>
+            <li>Showcase practical use of statistical and machine learning methods across multiple domains</li>
+            <li>Provide reproducible artifacts reviewable in notebook, report, and presentation formats</li>
+            <li>Emphasize technical storytelling and decision-oriented communication</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card" style="margin-bottom: 1rem;">
+        <h2>Repository Structure</h2>
+        <ul>
+          <li><strong>01. Energey Drink Analysis</strong> — introductory analytical framing and communication deliverables</li>
+          <li><strong>02. Weather Forecasting</strong> — Python CLI app using the OpenWeather API</li>
+          <li><strong>03. Housing Market Analysis</strong> — R-based statistical modeling and report generation</li>
+          <li><strong>04. Heart Diease Analysis</strong> — exploratory analysis for cardiovascular outcomes</li>
+          <li><strong>05. Service Members PTSD</strong> — multi-source ETL and data preparation workflows</li>
+          <li><strong>06. Credit Card Fraud Detection Analysis</strong> — imbalanced classification and fraud detection</li>
+          <li><strong>07. Diabetes Predictive Analytics</strong> — collaborative predictive analytics communication</li>
+          <li><strong>08. The Real Cost of Childcare</strong> — visualization and storytelling artifacts</li>
+          <li><strong>09. Email Triage Using Generative_AI</strong> — generative AI milestone communication</li>
+          <li><strong>10. ERCOT Hourly Power Load</strong> — advanced time-series forecasting with ERCOT data</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>How to Use This Repository</h2>
+        <ol>
+          <li>Start with the folder-level project notes to understand scope and key files</li>
+          <li>Open notebooks in Jupyter or VS Code and execute cells sequentially</li>
+          <li>Render R Markdown files in an R-enabled environment when replications are needed</li>
+          <li>Use document and presentation artifacts for stakeholder-ready communication review</li>
+        </ol>
+        <a class="cta" href="index.html">View the portfolio homepage</a>
+      </section>
+    </div>
+  </body>
+</html>
