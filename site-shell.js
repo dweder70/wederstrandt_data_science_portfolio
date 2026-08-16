@@ -9,9 +9,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     headerTarget.innerHTML = headerHtml;
 
     const currentPage = page === '' ? 'index.html' : page;
-    headerTarget.querySelectorAll('.nav-link').forEach((link) => {
+    const navLinks = headerTarget.querySelectorAll('.nav-link');
+
+    navLinks.forEach((link) => {
       const href = link.getAttribute('href');
       if (href === currentPage) {
+        link.textContent = 'Home';
+        link.setAttribute('href', 'index.html');
         link.classList.add('active');
       }
     });
