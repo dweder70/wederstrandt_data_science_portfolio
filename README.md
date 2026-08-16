@@ -26,6 +26,7 @@ This repository serves as a public-facing portfolio for data science work spanni
 | [06. Credit Card Fraud Detection Analysis](<06.%20Credit%20Card%20Fraud%20Detection%20Analysis/>) | Data mining + classification           | Imbalanced classification workflow with preprocessing and evaluation               |
 | [07. Diabetes Predictive Analytics](<07.%20Diabetes%20Predictive%20Analytics/>)                   | Collaboration + analytics storytelling | Predictive analytics outputs designed for decision-makers                          |
 | [10. ERCOT Load Forecasting](<10.%20ERCOT%20Load%20Forecasting/>)                                  | ERCOT load forecasting                | Texas hourly power demand forecasting with metadata validation and baseline benchmarking |
+| [11. Traffic Weather Event Predictor](<11.%20Traffic%20Weather%20Event%20Predictor/>)              | Traffic + weather + events            | Contextual traffic prediction using roadway, climate, and event signals             |
 
 ## 📌 What This Portfolio Highlights
 
@@ -48,6 +49,7 @@ This repository serves as a public-facing portfolio for data science work spanni
 - [08. The Real Cost of Childcare](<08.%20The%20Real%20Cost%20of%20Childcare/>)
 - [09. Email Triage Using Generative_AI](<09.%20Email%20Triage%20Using%20Generative_AI/>)
 - [10. ERCOT Load Forecasting](<10.%20ERCOT%20Load%20Forecasting/>)
+- [11. Traffic Weather Event Predictor](<11.%20Traffic%20Weather%20Event%20Predictor/>)
 
 ## 🛠️ Tools and Artifact Types
 
