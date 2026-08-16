@@ -18,14 +18,7 @@
   </head>
   <body>
     <header class="hero">
-      <nav class="nav">
-        <a href="#about" class="brand">David Wederstrandt Sr</a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
+      <div id="site-header"></div>
 
       <div class="hero-content">
         <div class="hero-copy">
@@ -36,7 +29,7 @@
             predictive analytics, time-series forecasting, visualization, and generative AI communication.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#projects">Explore Projects</a>
+            <a class="button primary" href="projects.html">Explore Projects</a>
             <a class="button secondary" href="README.html">Repository Overview</a>
           </div>
         </div>
@@ -65,129 +58,32 @@
     </header>
 
     <main>
-      <section id="about" class="section">
+      <section class="section">
         <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>Applied data science with a strong emphasis on technical rigor and communication.</h2>
+          <p class="eyebrow">Portfolio</p>
+          <h2>Browse the work by area</h2>
         </div>
         <div class="about-grid">
           <div class="card">
-            <h3>Core Focus</h3>
-            <p>
-              The portfolio emphasizes practical workflow design: collecting data from multiple sources,
-              preparing it for analysis, building interpretable models, and communicating findings to
-              technical and non-technical audiences.
-            </p>
+            <h3>About</h3>
+            <p>Learn more about the technical focus, data workflow, and communication approach behind the portfolio.</p>
+            <p><a class="button secondary" href="about.html">Visit About</a></p>
           </div>
           <div class="card">
-            <h3>Technical Stack</h3>
-            <ul>
-              <li>Python, Jupyter, pandas, scikit-learn</li>
-              <li>R, R Markdown, statistical modeling</li>
-              <li>API integration, ETL and data preparation</li>
-              <li>Visualization and stakeholder-ready reporting</li>
-            </ul>
+            <h3>Projects</h3>
+            <p>Review a selection of analytical, forecasting, and AI communication projects across the portfolio.</p>
+            <p><a class="button secondary" href="projects.html">Visit Projects</a></p>
           </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2>Selected portfolio work</h2>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card">
-            <h3>Energy Drink Analysis</h3>
-            <p>Foundational analytics and communication framing around an introductory business problem.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/01.%20Energey%20Drink%20Analysis">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Weather Forecasting</h3>
-            <p>Python CLI application that integrates live weather APIs with state normalization and forecast summaries.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/02.%20Weather%20Forecasting">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Housing Market Analysis</h3>
-            <p>Regression and GLM comparison delivered through reproducible R Markdown analysis.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/03.%20Housing%20Market%20Analysis">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Heart Disease Analysis</h3>
-            <p>Exploratory data analysis focused on cardiovascular outcomes and early hypothesis formation.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/03.%20Housing%20Market%20Analysis">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Service Members PTSD</h3>
-            <p>Multi-source data preparation work covering API, HTML, and flat-file ingestion pipelines.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/05.%20Service%20Members%20PTSD">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Fraud Detection</h3>
-            <p>Imbalanced classification workflow for fraud risk evaluation with metric-aware modeling.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/06.%20Credit%20Card%20Fraud%20Detection%20Analysis">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Diabetes Predictive Analytics</h3>
-            <p>Collaborative predictive analytics deliverables shaped for stakeholder-ready communication.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/07.%20Diabetes%20Predictive%20Analytics">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Real Cost of Childcare</h3>
-            <p>Visualization-focused reporting and narrative design for a public-facing analytical story.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/08.%20The%20Real%20Cost%20of%20Childcare">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Email Triage with Generative AI</h3>
-            <p>Milestone communication artifacts that document generative AI concepts and project outcomes.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/09.%20Email%20Triage%20Using%20Generative_AI">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>ERCOT Load Forecasting</h3>
-            <p>Time-series forecasting for ERCOT load demand with metadata reconciliation and benchmark evaluation.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/10.%20ERCOT%20Load%20Forecasting">Open project</a>
-          </article>
-
-          <article class="project-card">
-            <h3>Traffic Weather Event Predictor</h3>
-            <p>Contextual traffic analysis combining TxDOT, NOAA, and Ticketmaster data to assess demand drivers.</p>
-            <a href="https://github.com/dweder70/wederstrandt_data_science_portfolio/tree/main/11.%20Traffic%20Weather%20Event%20Predictor">Open project</a>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Contact</p>
-          <h2>Interested in the work or collaboration opportunities?</h2>
-        </div>
-        <div class="card contact-card">
-          <p>
-            This repository serves as a public-facing portfolio of coursework, technical analysis, and
-            communication artifacts. It is designed to be easy to navigate for employers, collaborators,
-            and reviewers.
-          </p>
-          <p>
-            Questions or inquiries:
-            <a href="mailto:david.wederstrandtsr@gmail.com"> My personal email address</a>
-          </p>
-          <a class="button primary" href="README.html">View Repository Summary</a>
+          <div class="card">
+            <h3>Contact</h3>
+            <p>Reach out for collaboration, questions, or professional opportunities.</p>
+            <p><a class="button secondary" href="contact.html">Visit Contact</a></p>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p>© 2026 David Wederstrandt — Data Science Portfolio</p>
-    </footer>
+    <div id="site-footer"></div>
+    <script src="site-shell.js"></script>
   </body>
 </html>
