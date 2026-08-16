@@ -4,7 +4,8 @@
 
 <p align="center">
   <strong>GitHub Pages portfolio for data science projects, analytical workflows, and communication-ready artifacts.</strong>
-</p>
+</p> 
+</div>
 
 ## 🌟 Portfolio Snapshot
 
