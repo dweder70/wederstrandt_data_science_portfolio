@@ -1,11 +1,10 @@
 # Data Science Portfolio
 
-<div align="center">
 
-<p align="center">
+
+<p align="left">
   <strong>GitHub Pages portfolio for data science projects, analytical workflows, and communication-ready artifacts.</strong>
 </p> 
-</div>
 
 ## 🌟 Portfolio Snapshot
 
